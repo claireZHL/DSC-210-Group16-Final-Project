@@ -15,9 +15,9 @@ To test the performance of different matrix multiplication methods across variou
 
 - **Results:**
   - **Figure I:** Compares the runtime of the Naive algorithm, Numpy, and PyTorch on a CPU. 
-    - The **Naive algorithm** (blue line) is significantly slower and is only tested up to a matrix size of \( 128 \) due to its excessive runtime.
-    - **Numpy** (green line) and **PyTorch** (orange line) exhibit similar performance for matrix sizes up to \( 2^{12} \) (4096).
-  - **Figure II:** Extends the comparison between Numpy and PyTorch for matrix sizes up to \( 2^{14} \) (16384). Both perform similarly under a CPU due to the sequential nature of operations.
+    - The **Naive algorithm** (blue line) is significantly slower and is only tested up to a matrix size of 128 due to its excessive runtime.
+    - **Numpy** (green line) and **PyTorch** (orange line) exhibit similar performance for matrix sizes up to $2^{12}$ (4096).
+  - **Figure II:** Extends the comparison between Numpy and PyTorch for matrix sizes up to $2^{14}$ (16384). Both perform similarly under a CPU due to the sequential nature of operations.
 
 ---
 
@@ -30,9 +30,9 @@ To test the performance of different matrix multiplication methods across variou
 
 - **Results:**
   - **Figure I:** Compares the runtime of the Naive algorithm, Numpy, and PyTorch with GPU support.
-    - The **Naive algorithm** (blue line) is again tested only up to a matrix size of \( 128 \) due to its slow runtime.
-    - **PyTorch** (orange line) significantly outperforms **Numpy** (green line) for matrix sizes up to \( 2^{12} \) (4096). The nearly horizontal PyTorch line demonstrates the benefits of GPU-accelerated parallel computation.
-  - **Figure II:** Extends the comparison between Numpy and PyTorch for matrix sizes up to \( 2^{14} \) (16384). **PyTorch** consistently outperforms **Numpy**, especially for larger matrix sizes.
+    - The **Naive algorithm** (blue line) is again tested only up to a matrix size of 128 due to its slow runtime.
+    - **PyTorch** (orange line) significantly outperforms **Numpy** (green line) for matrix sizes up to $2^{12}$ (4096). The nearly horizontal PyTorch line demonstrates the benefits of GPU-accelerated parallel computation.
+  - **Figure II:** Extends the comparison between Numpy and PyTorch for matrix sizes up to $2^{14}$ (16384). **PyTorch** consistently outperforms **Numpy**, especially for larger matrix sizes.
 
 ---
 

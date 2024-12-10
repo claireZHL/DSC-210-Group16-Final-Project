@@ -1,4 +1,4 @@
-# Group 17 - Fall 2024 Final Project
+# DSC-210-Group17-Final-Project
 
 This repository contains Group 17’s final project code for Fall 2024. The goal of our research is to analyze the runtime performance of matrix multiplication using three methods: the Naive algorithm, the Numpy library, and the PyTorch library. We evaluate their performance on matrices of increasing sizes with hardware accelerators set to either a CPU or a T4 GPU on Google Colab.
 
